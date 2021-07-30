@@ -26,7 +26,7 @@ public class RestRessources {
 	final String JsonUrl = "https://api.github.com/search/repositories?q=created:%3E2021-07-01&sort=stars&order=desc";
 	
 	
-	@GetMapping("/api")
+	@GetMapping("/api/v1/trendings")
 	public List<Elements> index() throws IOException, InterruptedException {
 		
 		// We get the json elements parsed in a Java List
