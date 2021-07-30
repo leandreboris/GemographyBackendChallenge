@@ -15,6 +15,9 @@ import com.main.models.RepoJson;
 @Service
 public class FetchingService implements IFetchingService {
 	
+	
+	// A simple httpClient to fetch our json data and mapp them in the specific objects
+	
 	@Override
 	public List<Items> fetchItems(String url) throws IOException, InterruptedException {
 		HttpClient client = HttpClient.newHttpClient();
