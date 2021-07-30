@@ -3,8 +3,8 @@ package com.main.models;
 import java.util.ArrayList;
 
 
-// (Optional) We use this class in order to have a simple way to display elements. We the number of languages,
-// the name of the language and the repositories that have used this language
+// (Optional) We use this class in order to have a simple way to display elements. We the number of names,
+// the name of the name and the repositories that have used this name
 
 
 public class Elements {
